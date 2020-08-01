@@ -1,0 +1,46 @@
+*{
+box-sizing:border-box;
+}
+body{
+background-color:red;
+opacity:0.9;
+}
+.Menu{
+border:2px solid white;
+background-color:black;
+color:white;
+margin:10px;
+position:relative;
+}
+.Menu h2{
+
+position:absolute;
+right:0px;
+top:0px;
+}
+.Menu img{
+width:100px;
+height:100px;
+padding:10px;
+}
+@media (min-width:1200px){
+.Menu{
+height:300px;
+width:30%;
+float:left;
+}
+@media (min-width:992px) and (max-width:1199px){
+.Menu{
+height:300px;
+width:50%;
+float:left;
+}
+@media (min-width:100px) and (max-width:991px){
+.Menu{
+height:300px;
+width:70%;
+float:left;
+}
+
+
+
